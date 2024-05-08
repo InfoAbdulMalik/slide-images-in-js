@@ -1,0 +1,30 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.container{
+    width:80%;
+    min-height:100vh;
+    margin:0 auto;
+    display:flex;
+}
+.main{
+    width:75%;
+    min-height:100%;
+}
+.main img{
+    min-height:50%;
+    object-fit: cover;
+
+}
+/* .thumb:hover{
+    animation:zoomIn;
+    animation-duration: 0.3s;
+} */
+.two{
+    width:25%;
+    height:100%;
+    background-color:yellow;
+}
